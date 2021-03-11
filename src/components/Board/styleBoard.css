@@ -1,0 +1,13 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.square {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #5d5e5e;
+}
+.selectedSquare {
+    background-color: #0099d1;
+}
