@@ -12,7 +12,6 @@ export default ({selectedSquares}) => {
                         <li className="list" key={box.id}>Row: {box.rowId} Col: {box.colId}</li>
                     ))
                 }
-
             </ul>
         </div>
     )

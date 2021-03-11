@@ -1,18 +1,14 @@
 import React from 'react';
 import './stylePickMode.css';
 
-
 export default ({selectedSquares, updatedMode, items, onDeletedHover, onStart }) => {
 
     const handleClick = (e) => {
         updatedMode(e.target.value)
-
     };
 
     return (
-
         <>
-
             <select className="select-mode"
                     defaultValue={'DEFAULT'}
                     onChange={handleClick}

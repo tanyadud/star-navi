@@ -31,6 +31,5 @@ export default ({onSelectedSquares, selectedSquares, cells}) => {
                 ))
             }
         </div>
-
     )
 }

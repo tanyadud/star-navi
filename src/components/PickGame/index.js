@@ -5,14 +5,12 @@ import Board from '../Board';
 import HoverSquares from '../ListHoverSquares';
 import {v4 as uuidv4} from 'uuid';
 
-
 export default () => {
     const [mode, setMode] = useState('');
     const [isLoaded, setIsLoaded] = useState(false);
     const [items, setItems] = useState([]);
     const [cells, setCells] = useState([]);
     const [selectedSquares, setSelectedSquares] = useState([]);
-
 
     useEffect(() => {
         fetch("http://demo1030918.mockable.io/ ")
@@ -63,7 +61,6 @@ export default () => {
 
     return (
         <div className="center">
-
             {
                 isLoaded ?
                     <>
@@ -88,7 +85,6 @@ export default () => {
                     :
                     <p>Loading...</p>
             }
-
         </div>
     )
 }
